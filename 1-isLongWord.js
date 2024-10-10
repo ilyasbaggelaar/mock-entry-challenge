@@ -1,15 +1,17 @@
 /* eslint-disable */
 // do not touch the line above
 
+let isValue = Boolean(expression);
+
 function isLongWord(word) {
 
   const regex = /^[A-Z]{5, }$/gi
   
   if (word === regex){
-    return true;
+    return isValue true;
   }
   else {
-    return false;
+    return isValue = false;
   }
 }
 
