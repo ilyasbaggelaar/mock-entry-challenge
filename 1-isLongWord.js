@@ -1,12 +1,14 @@
 /* eslint-disable */
 // do not touch the line above
 
+let isValue = Boolean(expression);
+
 function isLongWord(word) {
   if (word.length >= 5){
-    return true;
+    return isValue = true;
   }
   else {
-    return false;
+    return is Value = false;
   }
 }
 
