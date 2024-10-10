@@ -2,7 +2,7 @@
 // do not touch the line above
 
 function isLongWord(word) {
-  if (word.length >= 4){
+  if (word.length >= 5){
     return true;
   }
   else {
