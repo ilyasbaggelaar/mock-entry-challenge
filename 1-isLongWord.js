@@ -4,11 +4,14 @@
 let isValue = Boolean(expression);
 
 function isLongWord(word) {
-  if (word.length >= 5){
-    return isValue = true;
+
+  const regex = /^[A-Z]{5, }$/gi
+  
+  if (word === regex){
+    return isValue true;
   }
   else {
-    return is Value = false;
+    return isValue = false;
   }
 }
 
