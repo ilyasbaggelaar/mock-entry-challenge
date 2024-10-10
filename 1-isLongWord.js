@@ -3,9 +3,9 @@
 
 function isLongWord(word) {
 
-  const regex = /^\d$/gi
+  const regex = /^[A-Z]{5, }$/gi
   
-  if (word === regex && >= 5){
+  if (word === regex){
     return true;
   }
   else {
