@@ -2,8 +2,12 @@
 // do not touch the line above
 
 function isLongWord(word) {
-  // write your solution here! 
-  
+  if (word.length >= 4){
+    return true;
+  }
+  else {
+    return false;
+  }
 }
 
 // do not touch below this line
